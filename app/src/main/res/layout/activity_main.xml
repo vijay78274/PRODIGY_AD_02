@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80sp"
+        android:src="@drawable/qrmain"></ImageView>
+
+    <TextView
+        android:id="@+id/gen"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginEnd="50sp"
+        android:textColor="@color/white"
+        android:background="@color/purple"
+        android:gravity="center"
+        android:text="Generate Qr code"
+        android:textSize="25sp"></TextView>
+    <TextView
+        android:id="@+id/scan"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginStart="50sp"
+        android:layout_marginEnd="50sp"
+        android:textColor="@color/white"
+        android:background="@color/purple"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Scan Qr code"></TextView>
+
+</LinearLayout>
